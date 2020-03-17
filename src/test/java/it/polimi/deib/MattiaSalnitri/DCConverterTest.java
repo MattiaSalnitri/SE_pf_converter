@@ -1,14 +1,13 @@
-package it.polimi.deib.MattiaSalnitri.convertitore;
+package it.polimi.deib.MattiaSalnitri;
 
+import it.polimi.deib.MattiaSalnitri.convertitore.DCConverter;
+import it.polimi.deib.MattiaSalnitri.convertitore.DCConverter_int;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * mancano dei test, di cui almeno uno importante. quale?
- */
 public class DCConverterTest
 {
     DCConverter_int dcConverter = null;
